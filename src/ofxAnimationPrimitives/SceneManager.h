@@ -214,6 +214,7 @@ protected:
 			duration = copy.duration;
 			start_alpha = copy.start_alpha;
 			target_alpha = copy.target_alpha;
+			return *this;
 		}
 		
 		void fade(float target, float duration)
